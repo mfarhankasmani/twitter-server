@@ -1,6 +1,12 @@
 import { RequestHandler, Response } from "express";
 import logger from "../services/logger";
 import OAuth from "oauth";
+
+/* To-do : create config file with the correct credentials for BFF to work
+export const CONSUMER_KEY = "API Key";
+export const CONSUMER_SECRET = "API Secret";
+export const ACCESS_TOKEN = "Access Token";
+export const ACCESS_TOKEN_SECRET = "Access token secret"; */
 import * as config from "../config";
 
 interface IError extends Error {

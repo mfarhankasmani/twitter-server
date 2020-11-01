@@ -29,7 +29,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Provides a simple, relevance-based search interface to public user accounts on Twitter. Try querying by full name. Exact match searches are not supported.
 
-### Config.ts
+### `Config.ts`
 
 Create config.ts file on the same level of app.ts file with below secret credentials.
 
@@ -40,4 +40,4 @@ export const ACCESS_TOKEN_SECRET = "Access token secret";
 
 All four of them can be obtained at [dev.twitter.com](https://developer.twitter.com/en).
 
-# Without config application will not start
+## `Without config.ts application will not start`

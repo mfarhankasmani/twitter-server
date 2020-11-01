@@ -8,7 +8,7 @@ e2e-reports
 coverage
 test-output
 .nyc_output
-config.json
+config.ts
 
 # Files that might appear in the root of a volume
 .DocumentRevisions-V100
